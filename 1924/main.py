@@ -1,6 +1,10 @@
+# 1924
 import sys
 
 #f = sys.stdin
+# 나머지를 이용해서 요일 찾기
+# 1. 1 1부터 해당 일자까지 기간 계산
+# 2. 7로 나누어서 나머지 구함
 week = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
 
 f = open('data.txt', 'r')
@@ -16,5 +20,5 @@ for m in range(1,13):
         day += 30
     else:
         day += 28
-        
+
 print (week[day%7])
