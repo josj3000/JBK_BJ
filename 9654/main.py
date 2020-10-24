@@ -8,3 +8,4 @@ data.append(('Royal Cruiser', 'Light Combat', 'Limited', '4'))
 for line in data:
   print('{:15s}{:15s}{:11s}{:10s}'.format(line[0], line[1], line[2], line[3]))
   #15s = 15글자 내로
+  #테스트
